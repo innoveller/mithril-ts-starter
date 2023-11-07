@@ -1,0 +1,25 @@
+{
+    "startDate":"",
+    "endDate":"",
+    
+    "reservations" : [
+        {
+            "id" : 2001,
+            "guest" : {},
+            "status": "checkin",
+            "startDate" : "",
+            "endDate": "",
+            "roomTypeId": 23423434,
+            "assignedRoomId": ""
+        }
+    ],
+
+    "roomBlockDates" : [
+        {
+            "startDate": "",
+            "endDate" : "",
+            "roomId": 3333,
+            "reason": "......." 
+        }
+    ]
+}

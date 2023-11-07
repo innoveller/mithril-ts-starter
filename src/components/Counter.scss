@@ -1,0 +1,17 @@
+.counter {
+    border: 1px solid gray;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+}
+
+.counter > span.value {
+    text-align: center;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.counter > button {
+    width: 24px;
+    text-align: center;
+}

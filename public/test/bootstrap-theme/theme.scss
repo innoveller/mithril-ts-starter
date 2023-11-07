@@ -1,0 +1,28 @@
+/* How to run: sass theme.scss theme.css --style compressed */
+
+
+$theme-colors: (
+  "primary": #060c6a,
+  "secondary": #c49216,
+  "danger": #f40e0e,
+  "info": #68b8de,
+  "success": #4a9a24
+);
+
+$spacer: 0.6rem;
+
+$grid-gutter-width: 20px;
+
+/*
+$btn-font-size: 14px;
+$btn-font-weight: 600;
+
+$input-btn-padding-y: .4rem;
+$input-btn-padding-x: .8rem;
+*/
+
+/*$enable-rounded : false;*/
+$enable-shadows: true;
+//$enable-gradients: true;
+
+@import "./../node_modules/bootstrap/scss/bootstrap";
